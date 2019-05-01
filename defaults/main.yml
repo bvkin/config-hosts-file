@@ -1,0 +1,5 @@
+---
+
+hosts_file_locatin: /etc/hosts
+hosts_file_owner: root
+hosts_file_group: root

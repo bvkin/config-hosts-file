@@ -1,0 +1,5 @@
+---
+- hosts: hosts-manage-server
+  tasks:
+    - include_role:
+        name: "{{ playbook_dir }}/../../config-hosts-file"

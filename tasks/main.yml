@@ -1,0 +1,9 @@
+---
+
+- template:
+    src: hosts.j2
+    dest: "{{ hosts_file_locatin }}"
+    owner: "{{ hosts_file_owner }}"
+    group: "{{ hosts_file_group }}"
+    mode: 0644
+  become: yes

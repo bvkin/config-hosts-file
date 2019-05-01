@@ -1,0 +1,9 @@
+---
+
+hosts:
+  - hostname: localhost
+    ip: 127.0.0.1
+  - hostname: localhost
+    ip: ::1
+  - hostname: broadcasthost
+    ip: 255.255.255.255
