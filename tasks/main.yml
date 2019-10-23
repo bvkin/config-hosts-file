@@ -5,5 +5,5 @@
     dest: "{{ hosts_file_locatin }}"
     owner: "{{ hosts_file_owner }}"
     group: "{{ hosts_file_group }}"
-    mode: 0644
+    mode: 0664
   become: yes
